@@ -1,8 +1,8 @@
 # Inerior Desiner Landing Page
 
 > ## [Prateek Budhiraja](https://prateekbudhiraja.in)
->
-> <br/>
+
+<br/>
 
 ![responsive](https://img.shields.io/badge/Mobile%20Responsive-Yes-green)
 ![Deployed](https://img.shields.io/badge/Deployed-Yes-green)
