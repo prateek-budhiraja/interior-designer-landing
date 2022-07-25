@@ -49,7 +49,7 @@ nav i {
 .box {
   margin-top: 25px;
   padding: 20px 10px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .box .icon {
@@ -68,4 +68,125 @@ nav i {
 .box h3 {
   font-weight: 200;
   padding-left: 10px;
+}
+
+
+@media (min-width: 950px) {
+  nav {
+    padding: 10px 20px;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .links h3:last-child {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+
+  .links h3:last-child i {
+    transform: rotate(-20deg);
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .hrule {
+    height: 3px;
+    background-color: #fff;
+    width: 60%;
+    padding-right: 20px;
+    margin-left: auto;
+  }
+
+  .hero {
+    padding: 10px 20px;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero button.cta {
+    font-size: 2rem;
+    border-radius: 40px;
+    padding: 10px 25px;
+  }
+
+  .box {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+  }
+
+  .puzzle-box {
+    right: 5%;
+    top: 25%;
+  }
+
+  .puzzle-box::before {
+    content: "";
+    display: block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    bottom: -80px;
+    left: 150px;
+  }
+
+  .puzzle-box::after {
+    content: "";
+    display: block;
+    height: 70px;
+    width: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -70px;
+    left: 157px;
+  }
+
+  .idea-box {
+    bottom: 10%;
+    right: 30%;
+  }
+
+  .idea-box::before {
+    content: "";
+    display: block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    right: -80px;
+    top: 75px;
+  }
+
+  .idea-box::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 2px;
+    /* border-radius: 50%; */
+    background-color: #fff;
+    position: absolute;
+    right: -70px;
+    top: 84px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .hero h1 {
+    font-size: 4.5rem;
+    padding-top: 40px;
+  }
+
 }
