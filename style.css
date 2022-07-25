@@ -92,8 +92,8 @@ nav i {
     transform: rotate(-20deg);
   }
 
-  .fa-bars {
-    display: none;
+  nav .menu-btn {
+    display: none !important;
   }
 
   .hrule {
@@ -183,6 +183,9 @@ nav i {
 }
 
 @media (min-width: 1200px) {
+  nav .menu-btn {
+    display: none !important;
+  }
 
   .hero h1 {
     font-size: 4.5rem;
