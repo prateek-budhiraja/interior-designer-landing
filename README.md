@@ -28,9 +28,11 @@
 
 ## Images
 
-<br/>
 
-![Desktop](./assets/desktop.png)
+<p align="center">
+<img src="assets/desktop.png" width=600px>
+</p>
 <br/>
-
-![Mobile](./assets/mobile.png)
+<p align="center">
+<img src="./assets/mobile.png" height=600px>
+</p>
